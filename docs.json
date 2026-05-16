@@ -1,0 +1,27 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Test Docs",
+  "theme": "mint",
+  "colors": {
+    "primary": "#16A34A"
+  },
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": ["introduction"]
+    },
+    {
+      "group": "API Reference",
+      "pages": ["api-reference/endpoint"]
+    }
+  ],
+  "api": {
+    "openapi": "REPLACE_WITH_BURP_COLLABORATOR_URL",
+    "mdx": {
+      "server": "REPLACE_WITH_BURP_COLLABORATOR_URL"
+    },
+    "playground": {
+      "proxy": true
+    }
+  }
+}

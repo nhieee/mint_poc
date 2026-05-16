@@ -1,27 +1,19 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "name": "Test Docs",
-  "theme": "mint",
-  "colors": {
-    "primary": "#16A34A"
-  },
-  "navigation": [
-    {
-      "group": "Getting Started",
-      "pages": ["introduction"]
-    },
-    {
-      "group": "API Reference",
-      "pages": ["api-reference/endpoint"]
-    }
-  ],
-  "api": {
-    "openapi": "http://d8425ag24g0utp08aebgr3qup7d1e8xsg.oast.fun/ssrf-build",
-    "mdx": {
-      "server": "http://d8425ag24g0utp08aebgr3qup7d1e8xsg.oast.fun/ssrf-build"
-    },
-    "playground": {
-      "proxy": true
+    "$schema": "https://mintlify.com/docs.json",
+    "name": "Test Docs",
+    "theme": "mint",
+    "colors": { "primary": "#16A34A" },
+    "navigation": [
+      { "group": "Getting Started", "pages": ["introduction"] },
+      { "group": "API Reference", "pages": ["api-reference/endpoint"] }
+    ],
+    "api": {
+      "openapi": "http://d842oh024g0v7ntm4r106a734877ezz9j.oast.fun/openapi.json",
+      "mdx": {
+        "server": "http://d842oh024g0v7ntm4r106a734877ezz9j.oast.fun"
+      },
+      "playground": {
+        "proxy": true
+      }
     }
   }
-}

@@ -8,9 +8,9 @@
       { "group": "API Reference", "pages": ["api-reference/endpoint"] }
     ],
     "api": {
-      "openapi": "http://d842oh024g0v7ntm4r106a734877ezz9j.oast.fun/openapi.json",
+      "openapi": "https://d842oh024g0v7ntm4r106a734877ezz9j.oast.fun/openapi.json",
       "mdx": {
-        "server": "http://d842oh024g0v7ntm4r106a734877ezz9j.oast.fun"
+        "server": "https://d842oh024g0v7ntm4r106a734877ezz9j.oast.fun"
       },
       "playground": {
         "proxy": true
